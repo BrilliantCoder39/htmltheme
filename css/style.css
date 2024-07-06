@@ -304,8 +304,8 @@ h3 {
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: var(--dark-black);
-    -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
+    /* -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite; */
 }
 
 #loader:after {
@@ -1405,7 +1405,7 @@ iframe#youtubevideo {
 .service_blocks .inner_block .img img {
     position: relative;
     border-radius: 20px;
-    border: solid 2px var(--black);
+    /* border: solid 2px var(--black); */
 }
 
 .service_blocks .inner_block .star_img img {
