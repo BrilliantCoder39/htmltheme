@@ -838,9 +838,12 @@ header.fixed .navbar {
 /* Hero static image */
 
 .hero_image {
+    /* overflow: hidden;
+    height: 420px; */
     width: 100%;
     text-align: center;
     margin-top: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .hero_image::before {
@@ -4204,4 +4207,51 @@ footer .download_side .app_btn li a img {
     background-color: var(--bg-white);
     z-index: -5;
     border-radius: 30px;
+}
+.container1 {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.image {
+    
+    width: 430px;
+    height: 880px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image.left {
+    margin-top: 150px;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: -250px;
+}
+
+.image.center {
+    z-index: 1;
+}
+
+.image.right {
+    margin-top: 150px;
+    transform: rotate(10deg);
+    position: absolute;
+    right: -250px;
 }
