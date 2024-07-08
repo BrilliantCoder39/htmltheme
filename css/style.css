@@ -4235,7 +4235,7 @@ footer .download_side .app_btn li a img {
     /* height: 880px; */
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* //box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
 
 .image.left {
