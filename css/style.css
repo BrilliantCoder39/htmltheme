@@ -4232,7 +4232,7 @@ footer .download_side .app_btn li a img {
 .image {
     
     width: 430px;
-    height: 880px;
+    /* height: 880px; */
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
