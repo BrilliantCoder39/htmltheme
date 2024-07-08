@@ -4242,16 +4242,19 @@ footer .download_side .app_btn li a img {
     margin-top: 150px;
     transform: rotate(-10deg);
     position: absolute;
-    left: -250px;
+    left: -400px;
 }
 
 .image.center {
-    z-index: 1;
+    z-index: 3;
+    position: absolute;
 }
-
+.ima_ct {
+    position: absolute;
+}
 .image.right {
     margin-top: 150px;
     transform: rotate(10deg);
     position: absolute;
-    right: -250px;
+    right: -400px;
 }
