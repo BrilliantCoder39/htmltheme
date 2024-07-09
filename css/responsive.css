@@ -72,7 +72,7 @@
     }
 
     .hero_image img {
-        width: 100%;
+        /* width: 100%; */
     }
 
     /* navigation bar section */
@@ -373,9 +373,11 @@
 
 
     /* static hero images */
-
+    .image_center {
+        display: none;
+    }
     .hero_image img {
-    width: 90%;
+    /* width: 90%; */
     text-align: center;
     }
 
@@ -830,7 +832,7 @@
     /* static hero option */
 
     .hero_image img {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     }
 
@@ -1694,5 +1696,8 @@
 
     .signup_section .form_block .form_side {
         padding: 30px;
+    }
+    .image_center_min {
+        width: 300px;
     }
 }
