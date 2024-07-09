@@ -1698,6 +1698,7 @@
         padding: 30px;
     }
     .image_center_min {
+        margin-top: -400px;
         width: 300px;
     }
 }
